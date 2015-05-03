@@ -1,0 +1,78 @@
+/* This is a CSS file */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+body{
+	max-width: 750px;
+	margin: 20px;
+	padding: 10px;
+	font-family: Helvetica;
+
+}
+
+.heading{
+	display: flex;
+} 
+.heading-text{
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 20px;
+} 
+
+.image{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.lession{
+	background-color: rgb(156, 216, 179);
+	font-size: 16px;
+	font-family: Helvetica;
+	padding-bottom: 10px;
+	border-radius: 20px;
+
+}
+.title{
+	background-color: #009966;
+}
+
+span.code {
+    font-family: Courier;
+    background-color: #BBBBBB;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+
+.concepts{
+	padding-left: 10px;
+}
+
+h1{
+	text-align: center;
+	color:#339999;
+	background-color:#CCCCCC; 
+	border-radius: 20px;
+}
+h2{
+	background-color: #009966;
+	padding-top: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+}
+
+h3{
+	font-size: 22px;
+	font-family: Helvetica;
+
+}
+
